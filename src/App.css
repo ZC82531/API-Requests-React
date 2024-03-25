@@ -1,0 +1,59 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+
+ body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* App.css */
+.attributes {
+  background-color: aqua;
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  overflow: auto;
+}
+
+.attributes img {
+  max-width: 40%;
+  height: auto;
+}
+
+.card {
+  background-color: rgb(46, 169, 56);
+  padding: 10px;
+  margin: 5px auto;
+  border-radius: 10px;
+  width: 30%;
+}
+
+.banned-countries {
+  background-color: lightgray;
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  right: 0; /* Position to the right */
+  width: 50%;
+  height: 100%;
+  overflow: auto;
+}
+
+.ban-list {
+  display: flex;
+  flex-direction: column;
+}
